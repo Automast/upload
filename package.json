@@ -1,0 +1,16 @@
+{
+  "name": "high-speed-uploader",
+  "version": "1.0.0",
+  "description": "Robust file uploader with Telegram notifications",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1"
+  }
+}
