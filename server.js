@@ -7,7 +7,7 @@ const { v4: uuidv4 } = require('uuid');
 
 const app = express();
 // Railway provides the PORT automatically
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 4000;
 
 // --- CONFIGURATION ---
 const TELEGRAM_BOT_TOKEN = '8567720239:AAGWwNIYFolAJCnd91p1Uf4hiMZBYF3UPHA';
